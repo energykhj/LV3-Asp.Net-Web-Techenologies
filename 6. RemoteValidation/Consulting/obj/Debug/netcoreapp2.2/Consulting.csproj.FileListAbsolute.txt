@@ -1,0 +1,74 @@
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.deps.json
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.runtimeconfig.json
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.runtimeconfig.dev.json
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.dll
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.pdb
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.Views.dll
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.Views.pdb
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csprojAssemblyReference.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csproj.CoreCompileInputs.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorAssemblyInfo.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorAssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.AssemblyInfoInputs.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.AssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.TagHelpers.input.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.TagHelpers.output.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorCoreGenerate.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorTargetAssemblyInfo.cache
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorTargetAssemblyInfo.cs
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.Views.pdb
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.dll
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.pdb
+I:\ASP.NET.MVC\Tests\InitialProjects_Core2.2\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csproj.CopyComplete
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.deps.json
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.runtimeconfig.json
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.runtimeconfig.dev.json
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.dll
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.pdb
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.Views.dll
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\bin\Debug\netcoreapp2.2\Consulting.Views.pdb
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csprojAssemblyReference.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csproj.CoreCompileInputs.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorAssemblyInfo.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorAssemblyInfo.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.AssemblyInfoInputs.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.AssemblyInfo.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.TagHelpers.input.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.TagHelpers.output.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorCoreGenerate.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorTargetAssemblyInfo.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.RazorTargetAssemblyInfo.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.Views.pdb
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.dll
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.pdb
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Consulting.csproj.CopyComplete
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKWorkSessions\Create.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKWorkSessions\Delete.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKWorkSessions\Details.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKWorkSessions\Edit.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKWorkSessions\Index.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKContract\Create.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKContract\Delete.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKContract\Details.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKContract\Edit.g.cshtml.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Exam\final\Consulting\Consulting\Consulting\obj\Debug\netcoreapp2.2\Razor\Views\HKContract\Index.g.cshtml.cs

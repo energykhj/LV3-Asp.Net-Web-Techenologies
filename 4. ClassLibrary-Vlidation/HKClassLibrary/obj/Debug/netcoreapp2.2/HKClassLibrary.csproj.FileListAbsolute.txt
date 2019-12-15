@@ -1,0 +1,7 @@
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\bin\Debug\netcoreapp2.2\HKClassLibrary.deps.json
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\bin\Debug\netcoreapp2.2\HKClassLibrary.dll
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\bin\Debug\netcoreapp2.2\HKClassLibrary.pdb
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\obj\Debug\netcoreapp2.2\HKClassLibrary.AssemblyInfoInputs.cache
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\obj\Debug\netcoreapp2.2\HKClassLibrary.AssemblyInfo.cs
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\obj\Debug\netcoreapp2.2\HKClassLibrary.dll
+D:\CPA Level 3\PROG2230-MSWebTech\Assignments\Assignment4\HKClassLibrary\obj\Debug\netcoreapp2.2\HKClassLibrary.pdb

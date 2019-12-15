@@ -1,0 +1,40 @@
+﻿@model IEnumerable<HKPatients.Models.AspNetRoles>
+
+@{
+    ViewData["Title"] = "Current Roles";
+}
+
+<h1>Current Roles</h1>
+
+<form asp-controller="HKRole" asp-action="Create" method="post">
+    Create New role: <input type="text" name="Name" />
+    <input type="submit" name="Create" value="Create Role" />
+</form>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Role Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-action="UserInRole" asp-route-id="@item.Id">Users In Role</a>
+                    @if (item.Name != "administrators")
+                    {@("|") <a asp-action="DeleteRole" asp-route-id="@item.Id" asp-route-rolename="@item.Name">Delete Role</a>}
+
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

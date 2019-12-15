@@ -1,0 +1,54 @@
+﻿@model HKPatients.Models.PatientTreatment
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = $"Edit a Treatment for {Context.Session.GetString("DName")}, Patient: {Context.Session.GetString("FullName")}";
+}
+
+<h1>Edit a Treatment for @Context.Session.GetString("DName")</h1>
+<h2>Patient: @Context.Session.GetString("FullName")  </h2>
+
+<h4></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PatientTreatmentId" />
+            <input type="hidden" asp-for="PatientDiagnosisId" />
+
+            <div class="form-group">
+                <label asp-for="PatientDiagnosisId" class="control-label"></label>
+                <input readonly asp-for="PatientDiagnosis" value="@Context.Session.GetString("DName")" class="form-control" />
+                <span asp-validation-for="PatientDiagnosisId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TreatmentId" class="control-label"></label>
+                <select asp-for="TreatmentId" class="form-control" asp-items="ViewBag.TreatmentId"></select>
+                <span asp-validation-for="TreatmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatePrescribed" class="control-label"></label>
+                <input  readonly="readonly" asp-for="DatePrescribed" class="form-control" type="text" />
+                <span asp-validation-for="DatePrescribed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comments" class="control-label"></label>
+                <textarea name="Comments" asp-for="Comments" rows="3" class="form-control">@Model.Comments</textarea>
+                <span asp-validation-for="Comments" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

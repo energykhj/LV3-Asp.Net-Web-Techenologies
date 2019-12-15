@@ -1,0 +1,59 @@
+﻿@model IEnumerable<HKPatients.Models.AspNetUsers>
+
+@{
+    ViewData["Title"] = $"Users In Role '{ViewBag.RoleName}'";
+}
+
+<h1>Users In Role '@ViewBag.RoleName'</h1>
+
+<div class="w-50 p-3">
+    <form asp-controller="HKRole" asp-action="AddtoRole" method="post">
+        <div class="form-row">
+            @Html.Hidden("RoleId", (string)ViewBag.RoleId)
+            <div class="form-group col-auto">
+                Users not in role:
+            </div>
+            <div class="form-group col-auto">
+                <select name="UserId" id="UserId" class="form-control form-control-sm" asp-items="ViewBag.UserNotInRole"></select>
+            </div>
+            <div class="form-group col-auto">
+                <input type="submit" name="AddtoRole" value="Add to Role" />
+            </div>
+        </div>
+    </form>
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @if (ViewBag.RoleName != "administrators")
+                        {<a asp-action="RemoveUser" asp-route-rId="@ViewBag.RoleId" asp-route-id="@item.Id">Remove</a>}
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div>
+        <a asp-controller="HKRole" asp-action="Index">Return to Role List</a>
+    </div>
+</div>

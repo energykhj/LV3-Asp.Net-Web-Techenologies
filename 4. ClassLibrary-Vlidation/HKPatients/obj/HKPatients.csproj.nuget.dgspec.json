@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKPatients\\HKPatients.csproj": {}
+  },
+  "projects": {
+    "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\HKClassLibrary.csproj": {
+      "version": "1.2.0",
+      "restore": {
+        "projectUniqueName": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\HKClassLibrary.csproj",
+        "projectName": "HKClassLibrary",
+        "projectPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\HKClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\HeeJin Ko\\.nuget\\packages\\",
+        "outputPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HeeJin Ko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\bin\\Debug": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\InClassPractice\\CSClassLibrary\\bin\\Debug": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\InClassPractice\\MvcMusicStoreValidation\\MvcMusicStore\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKPatients\\HKPatients.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKPatients\\HKPatients.csproj",
+        "projectName": "HKPatients",
+        "projectPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKPatients\\HKPatients.csproj",
+        "packagesPath": "C:\\Users\\HeeJin Ko\\.nuget\\packages\\",
+        "outputPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKPatients\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HeeJin Ko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\bin\\Debug": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\InClassPractice\\CSClassLibrary\\bin\\Debug": {},
+          "D:\\CPA Level 3\\PROG2230-MSWebTech\\InClassPractice\\MvcMusicStoreValidation\\MvcMusicStore\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\HKClassLibrary.csproj": {
+                "projectPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\Assignments\\Assignment4\\HKClassLibrary\\HKClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "HKClassLibrary": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<HKPatients.Models.AspNetUsers>
+
+@{
+    ViewData["Title"] = $"Confirm Delete of Role '{ViewBag.RoleName}'";
+}
+<h1>Confirm Delete of Role '@ViewBag.RoleName'</h1>
+<main role="main" class="container">
+    <div>
+        <h4>Users in Role</h4>
+        <ul class="list-group">
+            @foreach (var item in Model)
+            {
+                <li class="nav-item">
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </li>
+            }
+        </ul>
+        <br /><br />
+        <nav class="navbar navbar-light bg-light">
+            <form asp-action="Delete">
+                <div class="form-group">
+                    <input type="hidden" name="RoleId" id="RoleId" value="@ViewBag.RoleId" />
+                    <input type="submit" value="Delete Confirmed" class="btn btn-danger" />
+                    <input type="button" value="Cancel Delete" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "HKRole")'" />
+                </div>
+            </form>
+        </nav>
+        <div>
+            <a asp-controller="HKRole" asp-action="Index">Return to Role List</a>
+        </div>
+    </div>
+    </main>

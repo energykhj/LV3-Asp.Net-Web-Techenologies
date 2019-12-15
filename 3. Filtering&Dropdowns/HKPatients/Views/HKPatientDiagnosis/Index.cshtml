@@ -1,0 +1,50 @@
+﻿@model IEnumerable<HKPatients.Models.PatientDiagnosis>
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = $"Diagnosis of " + Context.Session.GetString("FullName");
+}
+
+<h1>Diagnosis of @Context.Session.GetString("FullName")</h1>
+
+<p>
+    <a asp-action="Create">Create New Diagnosis</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diagnosis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.ActionLink(@Context.Session.GetString("FullName"), "Index", "HKPatientTreatment",
+                routeValues: new {pdid= item.PatientDiagnosisId, dname = item.Diagnosis.Name, fname= @Context.Session.GetString("FullName") })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diagnosis.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments)
+            </td>           
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatientDiagnosisId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatientDiagnosisId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatientDiagnosisId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

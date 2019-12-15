@@ -1,0 +1,44 @@
+﻿@model HKPatients.Models.PatientTreatment
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = $"Create a Treatment for {Context.Session.GetString("DName")}, Patient: {Context.Session.GetString("FullName")}";
+}
+
+<h1>Details of a Treatment for @Context.Session.GetString("DName")</h1>
+<h2>Patient: @Context.Session.GetString("FullName")  </h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DatePrescribed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DatePrescribed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Comments)
+        </dt>
+        <dd class="col-sm-10">
+            <span style="white-space: pre-line">@Html.DisplayFor(model => model.Comments)</span>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PatientDiagnosis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PatientDiagnosis.PatientDiagnosisId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Treatment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Treatment.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.PatientTreatmentId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

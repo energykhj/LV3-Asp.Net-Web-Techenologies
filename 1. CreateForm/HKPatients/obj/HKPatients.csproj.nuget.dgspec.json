@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\Assignment1\\PROG2230-HKoAssignment1\\HKPatients\\HKPatients.csproj": {}
+    "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\1. CreateForm\\HKPatients\\HKPatients.csproj": {}
   },
   "projects": {
-    "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\Assignment1\\PROG2230-HKoAssignment1\\HKPatients\\HKPatients.csproj": {
+    "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\1. CreateForm\\HKPatients\\HKPatients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\Assignment1\\PROG2230-HKoAssignment1\\HKPatients\\HKPatients.csproj",
+        "projectUniqueName": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\1. CreateForm\\HKPatients\\HKPatients.csproj",
         "projectName": "HKPatients",
-        "projectPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\Assignment1\\PROG2230-HKoAssignment1\\HKPatients\\HKPatients.csproj",
+        "projectPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\1. CreateForm\\HKPatients\\HKPatients.csproj",
         "packagesPath": "C:\\Users\\Heejin Ko\\.nuget\\packages\\",
-        "outputPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\Assignment1\\PROG2230-HKoAssignment1\\HKPatients\\obj\\",
+        "outputPath": "D:\\CPA Level 3\\PROG2230-MSWebTech\\WebTechProjects\\1. CreateForm\\HKPatients\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
